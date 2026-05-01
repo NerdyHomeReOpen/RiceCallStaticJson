@@ -1,4 +1,4 @@
-name: Build static JSON
+name: Deploy to Server
 
 on:
   push:
