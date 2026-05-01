@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - 有趣的语音聊天平台",
-    "description": "不仅仅是一个优秀的语音工具，还是一个有趣的游戏社区。",
-    "keywords": "RC语音,RiceCall,RC官网下载,RC软体,语音软体,语音聊天,公会语音,团队管理,团队聊天,副本语音,多人语聊,语音聊天,团队语音,游戏语音,在线K歌,网路K歌,游戏公会,网路教育"
+  "announcementCategory": {
+    "update": "更新",
+    "general": "一般",
+    "system": "系统",
+    "event": "活动"
   },
   "common": {
     "all": "全部"
-  },
-  "nav": {
-    "home": "首页",
-    "announcement": "官方公告",
-    "contact": "联系我们",
-    "status": "服务器状态",
-    "login": "登录",
-    "logout": "退出登录",
-    "register": "注册",
-    "account": "我的账户",
-    "closeMenu": "关闭菜单",
-    "openMenu": "开启选单"
   },
   "footer": {
     "partners": "合作伙伴",
@@ -33,6 +22,18 @@
       "privacy": "隐私政策",
       "terms": "服务条款"
     }
+  },
+  "nav": {
+    "home": "首页",
+    "announcement": "官方公告",
+    "contact": "联系我们",
+    "status": "服务器状态",
+    "login": "登录",
+    "logout": "退出登录",
+    "register": "注册",
+    "account": "我的账户",
+    "closeMenu": "关闭菜单",
+    "openMenu": "开启选单"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "您的平台目前不受支援"
     }
   },
-  "announcementCategory": {
-    "update": "更新",
-    "general": "一般",
-    "system": "系统",
-    "event": "活动"
+  "site": {
+    "title": "RiceCall - 有趣的语音聊天平台",
+    "description": "不仅仅是一个优秀的语音工具，还是一个有趣的游戏社区。",
+    "keywords": "RC语音,RiceCall,RC官网下载,RC软体,语音软体,语音聊天,公会语音,团队管理,团队聊天,副本语音,多人语聊,语音聊天,团队语音,游戏语音,在线K歌,网路K歌,游戏公会,网路教育"
   }
 }

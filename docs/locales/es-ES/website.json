@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - plataforma de chat de voz",
-    "description": "Más que chat de voz, es una comunidad de juegos divertida",
-    "keywords": "Voz RC, RiceCall, descarga del sitio web oficial de RC, software RC, software de voz, chat de voz, voz de gremio, gestión de equipos, chat de equipo, voz de mazmorra, chat de voz multipersona, chat de voz, voz de equipo, voz de juego, karaoke en línea, karaoke en línea, gremio de juegos, educación en línea, RaidCall, RC"
+  "announcementCategory": {
+    "update": "Actualización",
+    "general": "General",
+    "system": "Sistema",
+    "event": "Evento"
   },
   "common": {
     "all": "Todos"
-  },
-  "nav": {
-    "home": "Página principal",
-    "announcement": "Anuncios",
-    "contact": "Contacto",
-    "status": "Estado",
-    "login": "Iniciar sesión",
-    "logout": "Cerrar sesión",
-    "register": "Registrarse",
-    "account": "Mi cuenta",
-    "closeMenu": "Cerrar menú",
-    "openMenu": "Abrir menú"
   },
   "footer": {
     "partners": "Socios",
@@ -33,6 +22,18 @@
       "privacy": "Política de privacidad",
       "terms": "Términos del servicio"
     }
+  },
+  "nav": {
+    "home": "Página principal",
+    "announcement": "Anuncios",
+    "contact": "Contacto",
+    "status": "Estado",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "register": "Registrarse",
+    "account": "Mi cuenta",
+    "closeMenu": "Cerrar menú",
+    "openMenu": "Abrir menú"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "Tu plataforma no es compatible actualmente."
     }
   },
-  "announcementCategory": {
-    "update": "Actualización",
-    "general": "General",
-    "system": "Sistema",
-    "event": "Evento"
+  "site": {
+    "title": "RiceCall - plataforma de chat de voz",
+    "description": "Más que chat de voz, es una comunidad de juegos divertida",
+    "keywords": "Voz RC, RiceCall, descarga del sitio web oficial de RC, software RC, software de voz, chat de voz, voz de gremio, gestión de equipos, chat de equipo, voz de mazmorra, chat de voz multipersona, chat de voz, voz de equipo, voz de juego, karaoke en línea, karaoke en línea, gremio de juegos, educación en línea, RaidCall, RC"
   }
 }

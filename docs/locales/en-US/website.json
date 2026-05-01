@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - voice chat platform",
-    "description": "RiceCall is more than just a voice chat; it's also a fun gaming community.",
-    "keywords": "RC Voice, RiceCall, RC Voice Download, RC Software, Voice Software, Voice Chat, Guild Voice, Team Management, Team Chat, Dungeon Voice, Multi-person Voice Chat, Voice Chat, Team Voice, Game Voice, Online Karaoke, Online Network Karaoke, Game Guild, Online Education, RaidCall, РК, RC, download RaidCall, download RC"
+  "announcementCategory": {
+    "update": "Update",
+    "general": "General",
+    "system": "System",
+    "event": "Event"
   },
   "common": {
     "all": "All"
-  },
-  "nav": {
-    "home": "Home",
-    "announcement": "Announcements",
-    "contact": "Contact",
-    "status": "Status",
-    "login": "Login",
-    "logout": "Logout",
-    "register": "Register",
-    "account": "My Account",
-    "closeMenu": "Close menu",
-    "openMenu": "Open menu"
   },
   "footer": {
     "partners": "Partners",
@@ -33,6 +22,18 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     }
+  },
+  "nav": {
+    "home": "Home",
+    "announcement": "Announcements",
+    "contact": "Contact",
+    "status": "Status",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "account": "My Account",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "Your platform is currently unsupported."
     }
   },
-  "announcementCategory": {
-    "update": "Update",
-    "general": "General",
-    "system": "System",
-    "event": "Event"
+  "site": {
+    "title": "RiceCall - voice chat platform",
+    "description": "RiceCall is more than just a voice chat; it's also a fun gaming community.",
+    "keywords": "RC Voice, RiceCall, RC Voice Download, RC Software, Voice Software, Voice Chat, Guild Voice, Team Management, Team Chat, Dungeon Voice, Multi-person Voice Chat, Voice Chat, Team Voice, Game Voice, Online Karaoke, Online Network Karaoke, Game Guild, Online Education, RaidCall, РК, RC, download RaidCall, download RC"
   }
 }

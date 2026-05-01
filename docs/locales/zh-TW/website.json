@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - 有趣的語音聊天平台",
-    "description": "不僅僅是一個優秀的語音工具，還是一個有趣的遊戲社區。",
-    "keywords": "RC語音,RiceCall,RC官網下載,RC軟體,語音軟體,語音聊天,公會語音,團隊管理,團隊聊天,副本語音,多人語聊,語音聊天,團隊語音,遊戲語音,在線K歌,網路K歌,遊戲公會,網路教育"
+  "announcementCategory": {
+    "update": "更新",
+    "general": "一般",
+    "system": "系統",
+    "event": "活動"
   },
   "common": {
     "all": "全部"
-  },
-  "nav": {
-    "home": "首頁",
-    "announcement": "官方公告",
-    "contact": "聯繫我們",
-    "status": "伺服器狀態",
-    "login": "登入",
-    "logout": "登出",
-    "register": "註冊",
-    "account": "我的帳戶",
-    "closeMenu": "關閉菜單",
-    "openMenu": "開啟選單"
   },
   "footer": {
     "partners": "合作夥伴",
@@ -33,6 +22,18 @@
       "privacy": "隱私權政策",
       "terms": "服務條款"
     }
+  },
+  "nav": {
+    "home": "首頁",
+    "announcement": "官方公告",
+    "contact": "聯繫我們",
+    "status": "伺服器狀態",
+    "login": "登入",
+    "logout": "登出",
+    "register": "註冊",
+    "account": "我的帳戶",
+    "closeMenu": "關閉菜單",
+    "openMenu": "開啟選單"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "您的平台目前不受支援"
     }
   },
-  "announcementCategory": {
-    "update": "更新",
-    "general": "一般",
-    "system": "系統",
-    "event": "活動"
+  "site": {
+    "title": "RiceCall - 有趣的語音聊天平台",
+    "description": "不僅僅是一個優秀的語音工具，還是一個有趣的遊戲社區。",
+    "keywords": "RC語音,RiceCall,RC官網下載,RC軟體,語音軟體,語音聊天,公會語音,團隊管理,團隊聊天,副本語音,多人語聊,語音聊天,團隊語音,遊戲語音,在線K歌,網路K歌,遊戲公會,網路教育"
   }
 }

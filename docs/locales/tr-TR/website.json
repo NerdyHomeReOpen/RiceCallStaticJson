@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - sesli sohbet platformu",
-    "description": "Sesli sohbetten daha fazlası, ayrıca eğlenceli bir oyun topluluğu",
-    "keywords": "RC Voice, RiceCall, RC Voice İndirme, RC Yazılımı, Ses Yazılımı, Sesli Sohbet, Lonca Sesi, Ekip Yönetimi, Ekip Sohbeti, Zindan Sesi, Çok Kişilik Sesli Sohbet, Sesli Sohbet, Ekip Sesi, Oyun Sesi, Çevrimiçi Karaoke, Çevrimiçi Ağ Karaoke, Oyun Loncası, Çevrimiçi Eğitim, RC, RaidCall"
+  "announcementCategory": {
+    "update": "Güncelleme",
+    "general": "Genel",
+    "system": "Sistem",
+    "event": "Etkinlik"
   },
   "common": {
     "all": "Tümü"
-  },
-  "nav": {
-    "home": "ön sayfa",
-    "announcement": "Duyurular",
-    "contact": "İletişim",
-    "status": "Durum",
-    "login": "Giriş yap",
-    "logout": "Çıkış yap",
-    "register": "Kayıt ol",
-    "account": "Hesabım",
-    "closeMenu": "Menüyü Kapat",
-    "openMenu": "Menüyü aç"
   },
   "footer": {
     "partners": "Ortaklar",
@@ -33,6 +22,18 @@
       "privacy": "Gizlilik Politikası",
       "terms": "Hizmet Şartları"
     }
+  },
+  "nav": {
+    "home": "ön sayfa",
+    "announcement": "Duyurular",
+    "contact": "İletişim",
+    "status": "Durum",
+    "login": "Giriş yap",
+    "logout": "Çıkış yap",
+    "register": "Kayıt ol",
+    "account": "Hesabım",
+    "closeMenu": "Menüyü Kapat",
+    "openMenu": "Menüyü aç"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "Platformunuz şu anda desteklenmiyor."
     }
   },
-  "announcementCategory": {
-    "update": "Güncelleme",
-    "general": "Genel",
-    "system": "Sistem",
-    "event": "Etkinlik"
+  "site": {
+    "title": "RiceCall - sesli sohbet platformu",
+    "description": "Sesli sohbetten daha fazlası, ayrıca eğlenceli bir oyun topluluğu",
+    "keywords": "RC Voice, RiceCall, RC Voice İndirme, RC Yazılımı, Ses Yazılımı, Sesli Sohbet, Lonca Sesi, Ekip Yönetimi, Ekip Sohbeti, Zindan Sesi, Çok Kişilik Sesli Sohbet, Sesli Sohbet, Ekip Sesi, Oyun Sesi, Çevrimiçi Karaoke, Çevrimiçi Ağ Karaoke, Oyun Loncası, Çevrimiçi Eğitim, RC, RaidCall"
   }
 }

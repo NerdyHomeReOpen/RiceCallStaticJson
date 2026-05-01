@@ -4,21 +4,29 @@ const path = require('path');
 function sortJsonFile(filePath) {
   try {
     if (!fs.existsSync(filePath)) {
-      console.error(`❌ Error: File ${filePath} does not exist`);
+      console.error(`Error: File ${filePath} does not exist`);
       return false;
     }
 
     if (!filePath.endsWith('.json')) {
-      console.error(`❌ Error: ${filePath} is not a JSON file`);
+      console.error(`Error: ${filePath} is not a JSON file`);
       return false;
     }
-
-    console.log(`📝 Start sorting ${path.basename(filePath)}...`);
 
     const originalContent = fs.readFileSync(filePath, 'utf8');
     const jsonData = JSON.parse(originalContent);
 
-    console.log(`📊 File contains ${Object.keys(jsonData).length} translation keys`);
+    if (Array.isArray(jsonData)) {
+      console.log(`Skip ${filePath} (array root)`);
+      return true;
+    }
+
+    if (jsonData === null || typeof jsonData !== 'object') {
+      console.log(`Skip ${filePath} (not an object)`);
+      return true;
+    }
+
+    console.log(`Sorting ${filePath} (${Object.keys(jsonData).length} keys)`);
 
     const sortedKeys = Object.keys(jsonData).sort();
     const sortedData = {};
@@ -31,64 +39,91 @@ function sortJsonFile(filePath) {
 
     fs.writeFileSync(filePath, sortedContent, 'utf8');
 
-    console.log(`✅ ${path.basename(filePath)} has been sorted in alphabetical order!`);
-
-    if (sortedKeys.length > 0) {
-      console.log('📋 First 5 keys:');
-      sortedKeys.slice(0, 5).forEach((key, index) => {
-        const value = jsonData[key];
-        const displayValue = value.length > 50 ? value.substring(0, 50) + '...' : value;
-        console.log(`   ${index + 1}. ${key}: "${displayValue}"`);
-      });
-
-      if (sortedKeys.length > 5) {
-        console.log(`\n📋 Last 5 keys:`);
-        sortedKeys.slice(-5).forEach((key, index) => {
-          const value = jsonData[key];
-          const displayValue = value.length > 50 ? value.substring(0, 50) + '...' : value;
-          console.log(`   ${sortedKeys.length - 5 + index + 1}. ${key}: "${displayValue}"`);
-        });
-      }
-    }
+    console.log(`${filePath} sorted`);
 
     return true;
   } catch (error) {
-    console.error(`❌ Error: ${error.message}`);
+    console.error(`Error processing ${filePath}: ${error.message}`);
     return false;
   }
+}
+
+function findJsonFiles(dir) {
+  const results = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (entry.name === 'node_modules' || entry.name.startsWith('.')) {
+        continue;
+      }
+      results.push(...findJsonFiles(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      results.push(fullPath);
+    }
+  }
+
+  return results;
 }
 
 function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0) {
-    console.log('🔧 JSON translation file sorting tool');
-    console.log('\n📖 Usage:');
-    console.log('  node sort-json.cjs <file path>');
-    console.log('\n📝 Example:');
-    console.log('  node sort-json.cjs ./locales/zh-TW/translation.json');
-    console.log('  node sort-json.cjs ./locales/zh-TW/message.json');
-    console.log('  node sort-json.cjs ./locales/zh-TW/rpc.json');
-    console.log('\n✨ Features:');
-    console.log('  - Sort JSON files alphabetically by key');
-    console.log('  - Preserve original JSON formatting and indentation');
-    console.log('  - Directly modify the original file');
-    console.log('  - Display before and after comparison information');
+  if (args.length > 0 && (args[0] === '-h' || args[0] === '--help')) {
+    console.log('JSON file sorting tool');
+    console.log('\nUsage:');
+    console.log('  node sort-json.cjs [directory]');
+    console.log('\nExample:');
+    console.log('  node sort-json.cjs');
+    console.log('  node sort-json.cjs ./src/locales');
+    console.log('\nFeatures:');
+    console.log('  - Recursively find and sort all JSON files under the given directory');
+    console.log('  - Default to current working directory when none provided');
+    console.log('  - Skip files whose root is a JSON array');
+    console.log('  - Sort object keys alphabetically');
     return;
   }
 
-  const filePath = args[0];
+  const targetDir = args[0] ? (path.isAbsolute(args[0]) ? args[0] : path.resolve(args[0])) : process.cwd();
 
-  const absolutePath = path.isAbsolute(filePath) ? filePath : path.resolve(filePath);
+  if (!fs.existsSync(targetDir)) {
+    console.error(`Error: Directory ${targetDir} does not exist`);
+    process.exit(1);
+  }
 
-  console.log(`🎯 Target file: ${absolutePath}`);
+  const stat = fs.statSync(targetDir);
+  if (!stat.isDirectory()) {
+    console.error(`Error: ${targetDir} is not a directory`);
+    process.exit(1);
+  }
 
-  const success = sortJsonFile(absolutePath);
+  console.log(`Target directory: ${targetDir}`);
 
-  if (success) {
-    console.log('\n🎉 Sorting completed!');
-  } else {
-    console.log('\n💥 Sorting failed!');
+  const jsonFiles = findJsonFiles(targetDir);
+
+  if (jsonFiles.length === 0) {
+    console.log('No JSON files found.');
+    return;
+  }
+
+  console.log(`Found ${jsonFiles.length} JSON file(s)\n`);
+
+  let successCount = 0;
+  let failCount = 0;
+
+  for (const file of jsonFiles) {
+    const ok = sortJsonFile(file);
+    if (ok) {
+      successCount++;
+    } else {
+      failCount++;
+    }
+  }
+
+  console.log(`\nDone! Success: ${successCount}, Failed: ${failCount}`);
+
+  if (failCount > 0) {
     process.exit(1);
   }
 }
@@ -97,4 +132,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { sortJsonFile };
+module.exports = { sortJsonFile, findJsonFiles };

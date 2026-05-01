@@ -1,23 +1,12 @@
 {
-  "site": {
-    "title": "RiceCall - Plataforma de bate-papo por voz interessante",
-    "description": "Mais do que chat de voz, é uma comunidade de jogos divertida",
-    "keywords": "RC Voice, RiceCall, Download de RC Voice, Software RC, Software de voz, Bate-papo por voz, Voz de guilda, Gerenciamento de equipe, Bate-papo em equipe, Voz de masmorra, Bate-papo por voz para várias pessoas, Bate-papo por voz, Voz de equipe, Voz de jogo, Karaokê online, Karaokê de rede online, Guilda de jogos, Educação online, RaidCall, RC"
+  "announcementCategory": {
+    "update": "Atualização",
+    "general": "Geral",
+    "system": "Sistema",
+    "event": "Evento"
   },
   "common": {
     "all": "Todos"
-  },
-  "nav": {
-    "home": "primeira página",
-    "announcement": "Anúncios",
-    "contact": "Contato",
-    "status": "Status",
-    "login": "Entrar",
-    "logout": "Sair",
-    "register": "Cadastrar-se",
-    "account": "Minha conta",
-    "closeMenu": "Fechar menu",
-    "openMenu": "Abrir menu"
   },
   "footer": {
     "partners": "Parceiros",
@@ -33,6 +22,18 @@
       "privacy": "Política de privacidade",
       "terms": "Termos de serviço"
     }
+  },
+  "nav": {
+    "home": "primeira página",
+    "announcement": "Anúncios",
+    "contact": "Contato",
+    "status": "Status",
+    "login": "Entrar",
+    "logout": "Sair",
+    "register": "Cadastrar-se",
+    "account": "Minha conta",
+    "closeMenu": "Fechar menu",
+    "openMenu": "Abrir menu"
   },
   "pages": {
     "home": {
@@ -314,10 +315,9 @@
       "unsupported": "Sua plataforma não é compatível no momento."
     }
   },
-  "announcementCategory": {
-    "update": "Atualização",
-    "general": "Geral",
-    "system": "Sistema",
-    "event": "Evento"
+  "site": {
+    "title": "RiceCall - Plataforma de bate-papo por voz interessante",
+    "description": "Mais do que chat de voz, é uma comunidade de jogos divertida",
+    "keywords": "RC Voice, RiceCall, Download de RC Voice, Software RC, Software de voz, Bate-papo por voz, Voz de guilda, Gerenciamento de equipe, Bate-papo em equipe, Voz de masmorra, Bate-papo por voz para várias pessoas, Bate-papo por voz, Voz de equipe, Voz de jogo, Karaokê online, Karaokê de rede online, Guilda de jogos, Educação online, RaidCall, RC"
   }
 }
