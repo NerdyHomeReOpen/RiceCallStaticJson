@@ -1,0 +1,26 @@
+name: Build static JSON
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: /home/ubuntu/details
+
+jobs:
+  build:
+    runs-on: main
+
+    steps:
+      - name: 1. Pull latest code
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: 2. Build static JSON
+        run: |
+          source /home/ubuntu/.bashrc
+          node scripts/build.cjs
