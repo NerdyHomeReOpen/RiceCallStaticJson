@@ -5,7 +5,7 @@
   "certified-fm-anchor-description": "RC Voice رسماً پخش کننده FM دارای مجوز است.",
   "certified-good-voice": "دارای گواهینامه صدای خوب",
   "certified-good-voice-description": "نشان رسمی صدای خوب دارای گواهینامه RC Voice.",
-  "christmas-song-guessing-king": "بازی حدس آهنگ کریسمس",
+  "christmas-song-guessing-king": "پادشاه حدس آهنگ کریسمس",
   "christmas-song-guessing-king-description": "کریسمس همه چیز در مورد قرمز و سبز است، و انجام یک بازی حدس آهنگ بخشی از رویداد حدس آهنگ سریع \"کریسمس دلگرم کننده، تجدید دیدار\" 2025 است.",
   "christmas-starlight": "نور ستاره کریسمس",
   "christmas-starlight-description": "از شما به خاطر میزبانی/مهمان ویژه در رویداد محدود کریسمس ما، که کریسمس ما را با نور و خنده روشن کرد و مانند نور ستارگان درخشید، سپاسگزاریم.",
@@ -27,12 +27,12 @@
   "official-entertainment-staff-description": "کارکنان رسمی سرگرمی RC Voice - {{nickname}}",
   "official-support-staff": "پرسنل رسمی خدمات مشتریان",
   "official-support-staff-description": "نماینده رسمی خدمات مشتریان RC Voice - {{nickname}}",
-  "rc-0.1-paticipant": "رادیو کنترل پایونیر نسخه ۰.۱",
+  "rc-0.1-paticipant": "پیشگام RC Voice نسخه ۰.۱",
   "rc-0.1-paticipant-description": "نشان شرکت‌کننده نسخه ۰.۱ RC Voice: از شما بابت شرکت در آزمایش نسخه ۰.۱ RC Voice و تحمل کاستی‌های آن متشکریم. شما شاهد رشد RC Voice بوده‌اید، از این رو این نشان به شما اعطا می‌شود.",
   "support-volunteer": "داوطلبان رایس کال",
   "support-volunteer-description": "داوطلب صدای آرسی - {{nickname}}",
   "tester": "تستر",
   "tester-description": "تستر صدای RC - {{nickname}}",
-  "translator": "Translator",
+  "translator": "مترجم",
   "translator-description": "مترجم صدای RC - {{nickname}}"
 }

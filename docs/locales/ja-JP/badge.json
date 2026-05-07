@@ -5,7 +5,7 @@
   "certified-fm-anchor-description": "RC Voice公認FM放送局です。",
   "certified-good-voice": "認定グッドボイス",
   "certified-good-voice-description": "RC Voice公式認定グッドボイスバッジ。",
-  "christmas-song-guessing-king": "クリスマスソング当てゲーム",
+  "christmas-song-guessing-king": "クリスマス歌当てキング",
   "christmas-song-guessing-king-description": "クリスマスといえば赤と緑。歌を当てるゲームは、2025 年の「心温まるクリスマス、再会」という早押し歌当てイベントの一部です。",
   "christmas-starlight": "クリスマススターライト",
   "christmas-starlight-description": "クリスマス期間限定イベントのホスト/スペシャルゲストとして、星の光のように輝く光と笑いで私たちのクリスマスを照らしてくれてありがとう。",
@@ -19,8 +19,8 @@
   "intern-fm-anchor-description": "RC Voice公式インターンFMアンカー。",
   "lively-anchor": "元気配信者タレントバッジ",
   "lively-anchor-description": "配信者タレント！元気いっぱい！\n公式認定の配信者タレントが当日1時間以上配信すると、翌日『元気配信者タレントバッジ』を獲得できます。バッジは1日間表示されます。",
-  "ncse": "NCSE | 国運ネットワーク",
-  "ncse-description": "クラウド サービスのトップ チョイス、Guoyun Network!",
+  "ncse": "NCSE | 国雲ネットワーク",
+  "ncse-description": "国雲ネットワーク、クラウドサービスの第一選択！",
   "official-developer": "公式開発者",
   "official-developer-description": "RC Voice 公式開発者 - {{nickname}}",
   "official-entertainment-staff": "公式エンターテイメント担当者",
@@ -34,5 +34,5 @@
   "tester": "テスター",
   "tester-description": "RC ボイステスター - {{nickname}}",
   "translator": "翻訳者",
-  "translator-description": "RC音声翻訳機 - {{nickname}}"
+  "translator-description": "RC Voice 翻訳者 - {{nickname}}"
 }

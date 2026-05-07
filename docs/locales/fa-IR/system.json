@@ -7,7 +7,7 @@
   "install-update": "همین حالا نصب کن",
   "is-latest-version": "این در حال حاضر آخرین نسخه است.",
   "logout": "خروج",
-  "open-main-window": "نشان دان یا مخفی کردن منوی اصلی",
+  "open-main-window": "باز کردن پنجره اصلی",
   "select-record-save-path": "انتخاب محل ذخیره‌سازی ضبط صدا",
   "update-available": "نسخه جدید در دسترس است",
   "update-available-message": "نسخه جدید {{version}} در تاریخ {{releaseDate}} منتشر شد. برای شروع دانلود، روی دکمه \"دانلود به‌روزرسانی\" کلیک کنید.",

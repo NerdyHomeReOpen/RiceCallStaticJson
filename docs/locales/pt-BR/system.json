@@ -7,7 +7,7 @@
   "install-update": "Instalar Agora",
   "is-latest-version": "Já é a versão mais recente.",
   "logout": "Desconectar",
-  "open-main-window": "Mostrar/esconder menu principal",
+  "open-main-window": "Abrir janela principal",
   "select-record-save-path": "Selecionar local de armazenamento das gravações",
   "update-available": "Uma nova versão está disponível",
   "update-available-message": "A nova versão {{version}} foi lançada em {{releaseDate}}. Clique no botão \"Baixar atualização\" para iniciar o download.",

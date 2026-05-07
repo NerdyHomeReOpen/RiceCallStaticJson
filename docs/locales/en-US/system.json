@@ -7,7 +7,7 @@
   "install-update": "Install",
   "is-latest-version": "It's already the latest version.",
   "logout": "Logout",
-  "open-main-window": "Show/hide main menu",
+  "open-main-window": "Open main window",
   "select-record-save-path": "Select recording archive location",
   "update-available": "A new version is available",
   "update-available-message": "The new version {{version}} was released on {{releaseDate}}. Click the \"Download Update\" button to start the download.",

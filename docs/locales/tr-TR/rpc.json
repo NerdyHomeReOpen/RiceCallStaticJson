@@ -5,8 +5,8 @@
   "join-discord-server": "Discord sunucumuza katılın",
   "login-page": "Giriş Sayfası",
   "server-page": "Grup sohbeti",
-  "un-login": "Girişi İptal Et",
-  "user": "Kullanıcı ",
+  "un-login": "Giriş yapılmadı",
+  "user": "Kullanıcı: {{0}}",
   "viewing-friend-page": "Arkadaş listesine göz atma",
   "viewing-home-page": "Ana Sayfaya Göz Atma"
 }
