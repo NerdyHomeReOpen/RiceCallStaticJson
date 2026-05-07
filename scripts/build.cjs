@@ -4,14 +4,10 @@ const crypto = require("crypto");
 const { execSync } = require("child_process");
 
 const ROOT = path.resolve(__dirname, "..");
+const DOCS = path.join(ROOT, "docs");
 const DIST = path.join(ROOT, "dist");
 const TMP = path.join(ROOT, "dist.tmp");
 const OLD = path.join(ROOT, "dist.old");
-
-const SOURCES = [
-  { absDir: path.join(ROOT, "locales"), prefix: "locales" },
-  { absDir: path.join(ROOT, "docs"), prefix: "docs" },
-];
 
 function sha256(buf) {
   return crypto.createHash("sha256").update(buf).digest("hex");
@@ -40,7 +36,7 @@ function walkRel(dir) {
   return out;
 }
 
-function copyTree(srcDir, destDir, prefix) {
+function copyTree(srcDir, destDir) {
   const records = [];
   for (const rel of walkRel(srcDir)) {
     const srcPath = path.join(srcDir, rel);
@@ -49,12 +45,27 @@ function copyTree(srcDir, destDir, prefix) {
     const data = fs.readFileSync(srcPath);
     fs.writeFileSync(destPath, data);
     records.push({
-      path: path.posix.join(prefix, rel.split(path.sep).join("/")),
+      path: rel.split(path.sep).join("/"),
       size: data.length,
       sha256: sha256(data),
     });
   }
   return records;
+}
+
+function buildTree(dir) {
+  const tree = {};
+  const entries = fs
+    .readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name));
+  for (const e of entries) {
+    if (e.isDirectory()) {
+      tree[e.name] = buildTree(path.join(dir, e.name));
+    } else if (e.isFile()) {
+      tree[e.name] = null;
+    }
+  }
+  return tree;
 }
 
 function rmrf(p) {
@@ -65,41 +76,16 @@ function main() {
   rmrf(TMP);
   fs.mkdirSync(TMP, { recursive: true });
 
-  const localesDir = path.join(ROOT, "locales");
-  const docsDir = path.join(ROOT, "docs");
-
-  const files = [];
-  for (const { absDir, prefix } of SOURCES) {
-    files.push(...copyTree(absDir, path.join(TMP, prefix), prefix));
-  }
+  const files = copyTree(DOCS, TMP);
   files.sort((a, b) => a.path.localeCompare(b.path));
 
-  const locales = fs
-    .readdirSync(localesDir, { withFileTypes: true })
-    .filter((e) => e.isDirectory())
-    .map((e) => e.name)
-    .sort();
-
-  const namespaceSet = new Set();
-  for (const loc of locales) {
-    for (const f of fs.readdirSync(path.join(localesDir, loc))) {
-      if (f.endsWith(".json")) namespaceSet.add(f.replace(/\.json$/, ""));
-    }
-  }
-  const namespaces = [...namespaceSet].sort();
-
-  const docs = fs
-    .readdirSync(docsDir)
-    .filter((f) => f.endsWith(".json"))
-    .sort();
+  const tree = buildTree(DOCS);
 
   const manifest = {
     version: gitVersion(),
     updatedAt: new Date().toISOString(),
-    locales,
-    namespaces,
-    docs,
     files,
+    tree,
   };
 
   fs.writeFileSync(
@@ -114,7 +100,7 @@ function main() {
   rmrf(OLD);
 
   console.log(
-    `built dist/ — ${files.length} files, ${locales.length} locales, version ${manifest.version}`
+    `built dist/ — ${files.length} files, version ${manifest.version}`
   );
 }
 
