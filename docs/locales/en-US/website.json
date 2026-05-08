@@ -19,8 +19,8 @@
       "status": "Status",
       "announcement": "Announcements",
       "contact": "Contact",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "privacy": "Privacy policy",
+      "terms": "Terms of service"
     }
   },
   "nav": {
@@ -31,7 +31,7 @@
     "login": "Login",
     "logout": "Logout",
     "register": "Register",
-    "account": "My Account",
+    "account": "My account",
     "closeMenu": "Close menu",
     "openMenu": "Open menu"
   },
@@ -146,21 +146,21 @@
         "COO-taiwan": "COO, Taiwan",
         "COO-russia": "COO, Russia",
         "COO-brazil": "COO, Brazil",
-        "COO-iran": "Iranian Chief Operating Officer",
-        "COO-turkey": "Turkish Chief Operating Officer",
-        "COO-spain": "Spanish Chief Operating Officer",
-        "customer-service": "Customer Service",
+        "COO-iran": "Iranian chief operating officer",
+        "COO-turkey": "Turkish chief operating officer",
+        "COO-spain": "Spanish chief operating officer",
+        "customer-service": "Customer service",
         "developer": "Developer",
-        "machine-network": "Machine Network",
-        "technical-support": "Technical Support"
+        "machine-network": "Machine network",
+        "technical-support": "Technical support"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
+      "title": "Privacy policy",
       "lastUpdated": "Last updated"
     },
     "terms": {
-      "title": "Terms of Service"
+      "title": "Terms of service"
     },
     "register": {
       "title": "Register",
@@ -208,7 +208,7 @@
         "managed": "Managed"
       },
       "editOpen": "Edit",
-      "editClose": "Close Edit",
+      "editClose": "Close edit",
       "cancel": "Cancel",
       "save": "Save",
       "empty": "No data",
@@ -217,8 +217,8 @@
       "badgeShowTime": "Display until:",
       "permanent": "Permanent",
       "close": "Close",
-      "displayName": "Display Name",
-      "birthDate": "Birth Date",
+      "displayName": "Display name",
+      "birthDate": "Birth date",
       "gender": "Gender",
       "genderMale": "Male",
       "genderFemale": "Female",
@@ -226,7 +226,7 @@
       "select": "Select",
       "signature": "Signature",
       "about": "About",
-      "displayId": "User Name",
+      "displayId": "User name",
       "email": "Email",
       "error": "Failed to get profile",
       "permission": "Permission",
@@ -253,30 +253,30 @@
       "emailOld": "Current email",
       "emailOldPlaceholder": "Enter your currently bound email",
       "emailOldMismatch": "Current email is incorrect",
-      "emailVerifyTitle": "Verify Email",
-      "emailBindTitle": "Bind Email",
-      "emailChangeTitle": "Change Email",
+      "emailVerifyTitle": "Verify email",
+      "emailBindTitle": "Bind email",
+      "emailChangeTitle": "Change email",
       "emailSendSuccess": "Success! Please check your email to complete the verification.",
       "emailPageSubmit": "Submit",
       "emailChangeSuccess": "Email changed successfully!",
       "emailBindFailed": "Email bound failed or link expired. Please request again.",
-      "emailGoProfile": "Back to Profile",
+      "emailGoProfile": "Back to profile",
       "emailVerifying": "Verifying...",
       "requestFailed": "Request failed",
       "passwordReset": "Change password",
-      "passwordBindAction": "Bind Password",
+      "passwordBindAction": "Bind password",
       "recaptchaFailed": "reCAPTCHA verification failed, please try again later."
     },
     "forget": {
       "forgetTitle": "Forget the password",
       "enterAccount": "Please enter your account number, and we will send a password reset link to your linked email address.",
       "account": "Account number",
-      "sendEmail": "Send Reset Link",
+      "sendEmail": "Send reset link",
       "sendingEmail": "Sending...",
-      "backLogin": "Return to Login"
+      "backLogin": "Return to login"
     },
     "password": {
-      "resetTitle": "Reset Password",
+      "resetTitle": "Reset password",
       "verifyProcessing": "Verifying...",
       "verifyFailed": "Verification failed or link expired. Please request again.",
       "fields": {
