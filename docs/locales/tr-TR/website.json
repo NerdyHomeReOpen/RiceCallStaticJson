@@ -24,7 +24,7 @@
     }
   },
   "nav": {
-    "home": "ön sayfa",
+    "home": "Ana sayfa",
     "announcement": "Duyurular",
     "contact": "İletişim",
     "status": "Durum",
@@ -62,7 +62,7 @@
           },
           "roomPerms": {
             "title": "Odalar ve izinler",
-            "desc": "Sunucu kontrolleri, konuşma izinleri, susturma ve atma"
+            "desc": "Sunucu/Host kontrolleri, konuşma izinleri, susturma ve atma"
           },
           "crossPlatform": {
             "title": "Çoklu platform",
@@ -78,7 +78,7 @@
         "title": "Oyun için tasarlanmış ses",
         "desc": "RiceCall düşük gecikmeli, net ses ve grup aramaları sunar",
         "imageAlt": "RiceCall arayüzü ekran görüntüsü",
-        "close": "kapanış",
+        "close": "Kapat",
         "prev": "Önceki görüntü",
         "next": "Sonraki resim",
         "toggle": "Görüntüleri değiştir"
@@ -190,7 +190,7 @@
       },
       "submit": "Giriş yap",
       "submitting": "Giriş yapılıyor...",
-      "forgetPassword": "şifreyi unuttum",
+      "forgetPassword": "Şifremi unuttum",
       "errors": {
         "loginFailed": "Giriş başarısız, lütfen tekrar deneyin",
         "networkError": "Ağ veya sunucu hatası, lütfen daha sonra tekrar deneyin",
@@ -268,7 +268,7 @@
       "recaptchaFailed": "reCAPTCHA doğrulaması başarısız oldu, lütfen daha sonra tekrar deneyin."
     },
     "forget": {
-      "forgetTitle": "şifreyi unuttum",
+      "forgetTitle": "Şifremi unuttum",
       "enterAccount": "Lütfen hesap numaranızı girin, bağlı e-posta adresinize bir şifre sıfırlama bağlantısı göndereceğiz.",
       "account": "Hesap numarası",
       "sendEmail": "Sıfırlama Bağlantısını Gönder",
@@ -299,7 +299,7 @@
       "passwordMinLength": "Parola en az 8 karakter olmalıdır",
       "passwordMaxLength": "Parola en fazla 20 karakter olmalıdır",
       "passwordInvalidFormat": "Parola yalnızca İngilizce harfler, sayılar ve özel karakterler içermelidir",
-      "usernameInvalidFormat": "Takma ad yalnızca İngilizce harfler, sayılar ve özel karakterler içermelidir",
+      "usernameInvalidFormat": "Takma ad yalnızca İngilizce harfler ve sayılar içermelidir",
       "usernameMinLength": "Kullanıcı adları en az 4 karakter uzunluğunda olmalıdır.",
       "usernameMaxLength": "Kullanıcı adları en fazla 16 karakter uzunluğunda olabilir."
     },

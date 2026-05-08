@@ -214,7 +214,7 @@
       "empty": "No data",
       "noData": "No data",
       "clickChangeAvatar": "Click to change avatar",
-      "badgeShowTime": "Show to:",
+      "badgeShowTime": "Display until:",
       "permanent": "Permanent",
       "close": "Close",
       "displayName": "Display Name",
@@ -263,7 +263,7 @@
       "emailGoProfile": "Back to Profile",
       "emailVerifying": "Verifying...",
       "requestFailed": "Request failed",
-      "passwordReset": "Reset",
+      "passwordReset": "Change password",
       "passwordBindAction": "Bind Password",
       "recaptchaFailed": "reCAPTCHA verification failed, please try again later."
     },
@@ -272,7 +272,7 @@
       "enterAccount": "Please enter your account number, and we will send a password reset link to your linked email address.",
       "account": "Account number",
       "sendEmail": "Send Reset Link",
-      "sendingEmail": "link",
+      "sendingEmail": "Sending...",
       "backLogin": "Return to Login"
     },
     "password": {
@@ -301,7 +301,7 @@
       "passwordInvalidFormat": "Password must contain only English, numbers, and special characters",
       "usernameInvalidFormat": "Nicknames can only contain Chinese characters, English letters, and numbers.",
       "usernameMinLength": "Usernames must be at least 4 characters long.",
-      "usernameMaxLength": "Usernames must be at least 4 characters long...."
+      "usernameMaxLength": "Usernames must be at most 16 characters long."
     },
     "join": {
       "joinTitle": "Join the voice group",

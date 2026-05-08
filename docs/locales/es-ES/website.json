@@ -272,7 +272,7 @@
       "enterAccount": "Introduce tu número de cuenta y le enviaremos un enlace para restablecer la contraseña a tu dirección de correo electrónico vinculada.",
       "account": "Número de cuenta",
       "sendEmail": "Enviar enlace de reinicio",
-      "sendingEmail": "Envío...",
+      "sendingEmail": "Enviando...",
       "backLogin": "Volver a la página de inicio de sesión"
     },
     "password": {
@@ -311,7 +311,7 @@
       "warning": "Si no se redirige automáticamente, verifica si RiceCall está instalado.",
       "tryConnect": "Intenta conectarte al ID del grupo:",
       "retryOpen": "Intenta reiniciar RiceCall",
-      "loading": "A partir de...",
+      "loading": "Iniciando...",
       "unsupported": "Tu plataforma no es compatible actualmente."
     }
   },

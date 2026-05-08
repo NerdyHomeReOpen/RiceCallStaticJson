@@ -24,7 +24,7 @@
     }
   },
   "nav": {
-    "home": "primeira página",
+    "home": "Início",
     "announcement": "Anúncios",
     "contact": "Contato",
     "status": "Status",
@@ -78,7 +78,7 @@
         "title": "Voz pensada para jogos",
         "desc": "RiceCall oferece áudio claro e de baixa latência e chamadas em grupo",
         "imageAlt": "Captura da interface do RiceCall",
-        "close": "encerramento",
+        "close": "Fechar",
         "prev": "Imagem anterior",
         "next": "Próxima imagem",
         "toggle": "Trocar imagens"
@@ -204,7 +204,7 @@
       "groupsTitle": "Grupos",
       "tabs": {
         "recent": "Recentes",
-        "joined": "Ingressos",
+        "joined": "Ingressados",
         "managed": "Gerenciados"
       },
       "editOpen": "Editar",
@@ -270,7 +270,7 @@
     "forget": {
       "forgetTitle": "Esqueci minha senha",
       "enterAccount": "Por favor, informe o seu usuário da sua conta que enviaremos um link para redefinir a sua senha para o endereço de e-mail cadastrado.",
-      "account": "número de conta",
+      "account": "Conta",
       "sendEmail": "Enviar link de redefinição",
       "sendingEmail": "Enviando...",
       "backLogin": "Voltar ao login"

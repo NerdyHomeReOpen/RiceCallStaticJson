@@ -33,7 +33,7 @@
     "register": "注册",
     "account": "我的账户",
     "closeMenu": "关闭菜单",
-    "openMenu": "开启选单"
+    "openMenu": "打开菜单"
   },
   "pages": {
     "home": {
@@ -89,39 +89,39 @@
         "items": {
           "q1": {
             "question": "如何增加个人的经验值？",
-            "answer": "个人的经验值是根据在线时长来计算的。\n登入 RC 后，每在线一个小时增加一个积分，每天增加的积分最高上限为 24，\n不足一小时的部分会累积到下一次的计算。\n系统每天更新一次积分，时间为每日的上午 8 时。\n如遇突发情况导致在当日的 8 时积分未更新，未加的积分会累积到第二天的更新。"
+            "answer": "个人的经验值是根据在线时长来计算的。\n登录 RC 后，每在线一个小时增加一个积分，每天增加的积分最高上限为 24，\n不足一小时的部分会累积到下一次的计算。\n系统每天更新一次积分，时间为每日的上午 8 时。\n如遇突发情况导致在当日的 8 时积分未更新，未加的积分会累积到第二天的更新。"
           },
           "q2": {
             "question": "听不到别人讲话 / 别人听不到我讲话？",
-            "answer": "若您听不到别人讲话，请依序检查：\n\n◎ 先确认耳麦是否插好，且可正常使用（可用 RC 的语音检测功能测试）。\n  位置：视窗左上方 RC 语音 → 系统设定 → 音频音效 → 语音设备调节设定\n\n◎ 检查选择的设备是否正确：\n  ◆ 听不到声音：请在 RC 语音 → 系统设定 → 音频音效，调整输出装置\n  ◆ 别人听不到您：请在同页面调整输入装置",
+            "answer": "若您听不到别人讲话，请依序检查：\n\n◎ 先确认耳麦是否插好，且可正常使用（可用 RC 的语音检测功能测试）。\n  位置：窗口左上方 RC 语音 → 系统设置 → 音频音效 → 语音设备调节设定\n\n◎ 检查选择的设备是否正确：\n  ◆ 听不到声音：请在 RC 语音 → 系统设置 → 音频音效，调整输出设备\n  ◆ 别人听不到您：请在同页面调整输入设备",
             "image": "/img/faqs/1.png"
           },
           "q3": {
             "question": "这里是原本的RC语音官方吗？",
-            "answer": "不是，我们是一群由热忱组成的团队，跟原官方无任何关係。"
+            "answer": "不是，我们是一群由热忱组成的团队，跟原官方无任何关系。"
           },
           "q4": {
-            "question": "为什麽没有语音群？",
+            "question": "为什么没有语音群？",
             "answer": "目前没有推荐语音群，无聊没事可以去 10 或 2000000 逛逛喔。"
           },
           "q5": {
-            "question": "怎麽样获得 VIP？",
-            "answer": "目前未开放购买，将会在正式版开放时提供管道。"
+            "question": "怎么样获得 VIP？",
+            "answer": "目前未开放购买，将会在正式版开放时提供渠道。"
           },
           "q6": {
             "question": "我要多久才能升一次等级？",
             "html": "请在 <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">这里</a> 查看。"
           },
           "q7": {
-            "question": "登入后转圈圈怎麽办？",
-            "answer": "登出重新登入，若频繁触发请至 Discord 群「问题及建议」回报。"
+            "question": "登录后转圈圈怎么办？",
+            "answer": "退出登录后重新登录，若频繁触发请至 Discord 群「问题及建议」回报。"
           },
           "q8": {
-            "question": "弹出错误视窗怎麽办？",
+            "question": "弹出错误窗口怎么办？",
             "answer": "请截图并附上触发方式至 Discord 群「问题及建议」回报。"
           },
           "q9": {
-            "question": "我无法登入怎麽办？",
+            "question": "我无法登录怎么办？",
             "answer": "请先确定自己下载的是最新版本，对照版本号，若持续发生请至 Discord 群「问题及建议」回报。"
           }
         }
@@ -163,7 +163,7 @@
       "title": "服务条款"
     },
     "register": {
-      "title": "註冊",
+      "title": "注册",
       "subtitle": "填写以下信息以开始使用 RiceCall。",
       "fields": {
         "username": "昵称",
@@ -185,7 +185,7 @@
       "title": "登录",
       "subtitle": "请输入你的资料以继续。",
       "fields": {
-        "account": "帐号",
+        "account": "账号",
         "password": "密码"
       },
       "submit": "登录",
@@ -231,12 +231,12 @@
       "error": "获取个人资料失败",
       "permission": "权限",
       "uploadCancel": "取消",
-      "uploadApplyNoCrop": "不裁切直接套用",
+      "uploadApplyNoCrop": "不裁切直接应用",
       "uploading": "上传中...",
-      "uploadApply": "套用",
+      "uploadApply": "应用",
       "uploadFailed": "上传失败",
       "emailTitle": "电子邮箱",
-      "newEmailTitle": "新电子信箱",
+      "newEmailTitle": "新电子邮箱",
       "emailNotBound": "尚未绑定邮箱",
       "emailBound": "已绑定邮箱",
       "emailAction": "绑定/修改邮箱",
@@ -269,11 +269,11 @@
     },
     "forget": {
       "forgetTitle": "忘记密码",
-      "enterAccount": "请输入您的帐号，我们会寄送重设密码连结至您绑定的信箱。",
-      "account": "帐号",
-      "sendEmail": "帐号寄送重设连结",
-      "sendingEmail": "寄送中...",
-      "backLogin": "返回登入"
+      "enterAccount": "请输入您的账号，我们会发送重置密码链接至您绑定的邮箱。",
+      "account": "账号",
+      "sendEmail": "发送重置链接",
+      "sendingEmail": "发送中...",
+      "backLogin": "返回登录"
     },
     "password": {
       "resetTitle": "重置密码",
@@ -300,8 +300,8 @@
       "passwordMaxLength": "密码长度最多 20 位",
       "passwordInvalidFormat": "密码只能包含英文、数字、特殊符号",
       "usernameInvalidFormat": "昵称只能包含中文、英文、数字",
-      "usernameMinLength": "使用者名称长度至少 4 码",
-      "usernameMaxLength": "使用者名称长度最多 16 码"
+      "usernameMinLength": "用户名长度至少 4 位",
+      "usernameMaxLength": "用户名长度最多 16 位"
     },
     "join": {
       "joinTitle": "进入语音群",
@@ -309,15 +309,15 @@
       "invalidSid": "无效的sid",
       "opening": "正在开启 RiceCall...",
       "warning": "如果未自动跳转，请确认是否已安装 RiceCall",
-      "tryConnect": "尝试连线至语音群 ID：",
+      "tryConnect": "尝试连接至语音群 ID：",
       "retryOpen": "重新尝试开启RiceCall",
       "loading": "正在开启...",
-      "unsupported": "您的平台目前不受支援"
+      "unsupported": "您的平台目前不受支持"
     }
   },
   "site": {
     "title": "RiceCall - 有趣的语音聊天平台",
     "description": "不仅仅是一个优秀的语音工具，还是一个有趣的游戏社区。",
-    "keywords": "RC语音,RiceCall,RC官网下载,RC软体,语音软体,语音聊天,公会语音,团队管理,团队聊天,副本语音,多人语聊,语音聊天,团队语音,游戏语音,在线K歌,网路K歌,游戏公会,网路教育"
+    "keywords": "RC语音,RiceCall,RC官网下载,RC软件,语音软件,语音聊天,公会语音,团队管理,团队聊天,副本语音,多人语聊,语音聊天,团队语音,游戏语音,在线K歌,网络K歌,游戏公会,网路教育"
   }
 }

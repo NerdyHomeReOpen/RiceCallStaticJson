@@ -1,7 +1,7 @@
 {
   "announcementCategory": {
-    "update": "関連製品の新規追加",
-    "general": "一般的に",
+    "update": "アップデート",
+    "general": "一般",
     "system": "システム",
     "event": "イベント"
   },
@@ -24,7 +24,7 @@
     }
   },
   "nav": {
-    "home": "表紙",
+    "home": "ホーム",
     "announcement": "公式お知らせ",
     "contact": "お問い合わせ",
     "status": "サーバーステータス",
@@ -78,7 +78,7 @@
         "title": "ゲームのために生まれたマルチボイス",
         "desc": "RiceCall は低遅延でクリアな音声、複数人でも同時に通話可能",
         "imageAlt": "RiceCall のスクリーンショット",
-        "close": "閉鎖",
+        "close": "閉じる",
         "prev": "前の画像",
         "next": "次の写真",
         "toggle": "画像を切り替える"
@@ -149,7 +149,7 @@
         "COO-iran": "イラン最高執行責任者",
         "COO-turkey": "トルコ最高執行責任者",
         "COO-spain": "スペイン最高執行責任者",
-        "customer-service": "公式お知らせ",
+        "customer-service": "カスタマーサービス",
         "developer": "開発者",
         "machine-network": "機器ネットワークの管理",
         "technical-support": "技術サポート"
@@ -189,7 +189,7 @@
         "password": "パスワード"
       },
       "submit": "ログイン",
-      "submitting": "読み込み中...",
+      "submitting": "ログイン中...",
       "forgetPassword": "パスワードを忘れた",
       "errors": {
         "loginFailed": "ログインに失敗しました。もう一度お試しください",
@@ -201,13 +201,13 @@
       "title": "プロフィール",
       "level": "レベル",
       "badgesTitle": "バッジ",
-      "groupsTitle": "サーバー",
+      "groupsTitle": "ボイスグループ",
       "tabs": {
-        "recent": "最近の",
+        "recent": "最近",
         "joined": "参加",
         "managed": "管理された"
       },
-      "editOpen": "作成日",
+      "editOpen": "編集",
       "editClose": "編集を閉じる",
       "cancel": "キャンセル",
       "save": "保存",
@@ -215,7 +215,7 @@
       "noData": "データなし",
       "clickChangeAvatar": "クリックしてアバターを変更",
       "badgeShowTime": "表示期限:",
-      "permanent": "永遠",
+      "permanent": "永久",
       "close": "閉じる",
       "displayName": "表示名",
       "birthDate": "生年月日",
@@ -229,7 +229,7 @@
       "displayId": "ユーザー名",
       "email": "メールアドレス",
       "error": "プロフィールを取得できませんでした",
-      "permission": "許可",
+      "permission": "権限",
       "uploadCancel": "キャンセル",
       "uploadApplyNoCrop": "切り取らずに適用",
       "uploading": "アップロード中...",
@@ -238,10 +238,10 @@
       "emailTitle": "メール",
       "newEmailTitle": "新しいメール",
       "emailNotBound": "メールはバインドされていません",
-      "emailBound": "メールバインド",
+      "emailBound": "メール連携済み",
       "emailAction": "メールのバインド/変更",
       "emailBindAction": "メールをバインド",
-      "emailChangeAction": "変化",
+      "emailChangeAction": "変更",
       "emailInputPlaceholder": "メールアドレスを入力してください",
       "emailCode": "検証コード",
       "emailSendCode": "コードを送信",
@@ -249,7 +249,7 @@
       "emailBindConfirm": "バインドを確認",
       "emailBinding": "バインディング...",
       "emailSendLink": "確認リンクを送信",
-      "emailSendingLink": "男性のメール送信中...",
+      "emailSendingLink": "送信中...",
       "emailOld": "元のメールボックス",
       "emailOldPlaceholder": "現在リンクされているメールアドレスを入力してください。",
       "emailOldMismatch": "元のメールアドレスが間違っています。",
@@ -270,7 +270,7 @@
     "forget": {
       "forgetTitle": "パスワードを忘れた",
       "enterAccount": "アカウント番号を入力すると、リンクされたメールアドレスにパスワードリセットリンクが送信されます。",
-      "account": "口座番号",
+      "account": "アカウント",
       "sendEmail": "リセットリンクを送信",
       "sendingEmail": "送信中...",
       "backLogin": "ログインに戻る"
@@ -299,7 +299,7 @@
       "passwordMinLength": "パスワードは 8 文字以上である必要があります。",
       "passwordMaxLength": "パスワードの長さは最大 20 文字です。",
       "passwordInvalidFormat": "パスワードには、英数字、数字、特殊記号のみを含めることができます。",
-      "usernameInvalidFormat": "ユーザー名には中国語、英語、数字のみ使用できます",
+      "usernameInvalidFormat": "ニックネームには中国語、英語、数字のみ使用できます",
       "usernameMinLength": "ユーザー名は 4 文字以上である必要があります。",
       "usernameMaxLength": "ユーザー名は最大 16 文字まで使用できます。"
     },
