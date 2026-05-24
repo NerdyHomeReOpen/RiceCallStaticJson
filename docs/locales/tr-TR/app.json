@@ -267,6 +267,7 @@
   "input-device": "Giriş aygıtları",
   "input-message": "Mesajınızı girin",
   "invite": "Davet et",
+  "invite-friend": "Arkadaşları davet et",
   "invite-friend-to-server": "Arkadaşları gruba davet et",
   "invite-friend-to-server-confirm": "{{0}} arkadaşını {{1}} ses grubuna davet etmek istediğinden emin misin?",
   "invite-member": "Üye davet et",

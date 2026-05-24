@@ -267,6 +267,7 @@
   "input-device": "Устройство ввода",
   "input-message": "Введите сообщение",
   "invite": "Пригласить",
+  "invite-friend": "Пригласить друзей",
   "invite-friend-to-server": "Пригласить друзей в группу",
   "invite-friend-to-server-confirm": "Вы уверены, что хотите пригласить {{0}} друзей в голосовую группу {{1}}?",
   "invite-member": "Пригласить участника",

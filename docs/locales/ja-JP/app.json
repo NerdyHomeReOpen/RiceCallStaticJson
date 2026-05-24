@@ -267,6 +267,7 @@
   "input-device": "入力デバイス",
   "input-message": "メッセージを入力してください",
   "invite": "招待",
+  "invite-friend": "フレンドを招待",
   "invite-friend-to-server": "フレンドをグループに招待",
   "invite-friend-to-server-confirm": "{{0}} 人のフレンドを {{1}} ボイスグループに招待しますか？",
   "invite-member": "メンバーを招待",

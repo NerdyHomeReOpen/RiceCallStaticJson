@@ -267,6 +267,7 @@
   "input-device": "Input device",
   "input-message": "Input message",
   "invite": "Invite",
+  "invite-friend": "Invite friends",
   "invite-friend-to-server": "Invite friends to group",
   "invite-friend-to-server-confirm": "Are you sure you want to invite {{0}} friends to {{1}} voice group?",
   "invite-member": "Invite members",

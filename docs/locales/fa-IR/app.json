@@ -267,6 +267,7 @@
   "input-device": "دستگاه‌های ورودی",
   "input-message": "وارد کردن پیام",
   "invite": "دعوت",
+  "invite-friend": "دعوت دوستان",
   "invite-friend-to-server": "دعوت دوستان به گروه",
   "invite-friend-to-server-confirm": "آیا مطمئنید که می‌خواهید {{0}} دوست را به گروه صوتی {{1}} دعوت کنید؟",
   "invite-member": "دعوت از اعضا",
