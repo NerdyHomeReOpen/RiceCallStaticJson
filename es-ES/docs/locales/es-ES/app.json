@@ -267,6 +267,7 @@
   "input-device": "Introducir dispositivo",
   "input-message": "Escribe un mensaje...",
   "invite": "邀請",
+  "invite-friend": "邀請好友",
   "invite-friend-to-server": "邀請好友進群",
   "invite-friend-to-server-confirm": "您確定要邀請 {{0}} 位好友進入 {{1}} 語音群嗎？",
   "invite-member": "Invitar miembro",
