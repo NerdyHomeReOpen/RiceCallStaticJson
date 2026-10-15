@@ -201,11 +201,12 @@
       "title": "個人檔案",
       "level": "等級",
       "badgesTitle": "徽章牆",
+      "serversTitle": "語音群",
       "groupsTitle": "語音群",
       "tabs": {
         "recent": "最近訪問",
-        "joined": "加入的群",
-        "managed": "管理的群"
+        "joined": "加入的語音群",
+        "managed": "管理的語音群"
       },
       "editOpen": "編輯",
       "editClose": "關閉編輯",

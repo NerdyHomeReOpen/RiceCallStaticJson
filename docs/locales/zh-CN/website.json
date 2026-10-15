@@ -201,11 +201,12 @@
       "title": "个人档案",
       "level": "等级",
       "badgesTitle": "徽章墙",
+      "serversTitle": "语音群",
       "groupsTitle": "语音群",
       "tabs": {
         "recent": "最近访问",
-        "joined": "加入的群",
-        "managed": "管理的群"
+        "joined": "加入的语音群",
+        "managed": "管理的语音群"
       },
       "editOpen": "编辑",
       "editClose": "关闭编辑",

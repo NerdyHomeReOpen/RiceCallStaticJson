@@ -201,6 +201,7 @@
       "title": "Perfil",
       "level": "Nivel",
       "badgesTitle": "Insignias",
+      "serversTitle": "Grupos",
       "groupsTitle": "Grupos",
       "tabs": {
         "recent": "Recientes",

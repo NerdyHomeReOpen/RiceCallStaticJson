@@ -201,6 +201,7 @@
       "title": "Профиль",
       "level": "Уровень",
       "badgesTitle": "Значки",
+      "serversTitle": "Группы",
       "groupsTitle": "Группы",
       "tabs": {
         "recent": "Недавние",

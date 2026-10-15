@@ -201,6 +201,7 @@
       "title": "プロフィール",
       "level": "レベル",
       "badgesTitle": "バッジ",
+      "serversTitle": "ボイスグループ",
       "groupsTitle": "ボイスグループ",
       "tabs": {
         "recent": "最近",
