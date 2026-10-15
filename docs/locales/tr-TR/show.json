@@ -1,0 +1,12 @@
+{
+  "ui.loading": "Yükleniyor…",
+  "ui.flowerCooldownPrefix": "Yenilenme",
+  "ui.heartCooldownTip": "Kalp {time} içinde yenilenecek",
+  "ui.heart": "Kalp",
+  "ui.flower": "Gül",
+  "ui.gifted": "hediye etti",
+  "ui.to": "için",
+  "ui.settingsTitle": "Ayarlar",
+  "ui.settingsEffects": "Çiçek efektleri",
+  "ui.settingsGiftLog": "Hediye geçmişi"
+}

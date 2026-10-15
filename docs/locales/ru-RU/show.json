@@ -1,0 +1,12 @@
+{
+  "ui.loading": "Загрузка…",
+  "ui.flowerCooldownPrefix": "Восстановление",
+  "ui.heartCooldownTip": "Сердце восстановится через {time}",
+  "ui.heart": "Сердце",
+  "ui.flower": "Роза",
+  "ui.gifted": "подарил(а)",
+  "ui.to": "для",
+  "ui.settingsTitle": "Настройки",
+  "ui.settingsEffects": "Эффекты цветов",
+  "ui.settingsGiftLog": "История подарков"
+}

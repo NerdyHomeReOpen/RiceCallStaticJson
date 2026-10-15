@@ -1,0 +1,12 @@
+{
+  "ui.loading": "Loading…",
+  "ui.flowerCooldownPrefix": "Refill",
+  "ui.heartCooldownTip": "Heart refills in {time}",
+  "ui.heart": "Heart",
+  "ui.flower": "Rose",
+  "ui.gifted": "gifted",
+  "ui.to": "to",
+  "ui.settingsTitle": "Settings",
+  "ui.settingsEffects": "Flower effects",
+  "ui.settingsGiftLog": "Flower log"
+}

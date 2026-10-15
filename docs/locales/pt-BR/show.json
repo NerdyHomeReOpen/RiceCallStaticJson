@@ -1,0 +1,12 @@
+{
+  "ui.loading": "Carregando…",
+  "ui.flowerCooldownPrefix": "Recarregar",
+  "ui.heartCooldownTip": "O coração será recarregado em {time}",
+  "ui.heart": "Coração",
+  "ui.flower": "Rosa",
+  "ui.gifted": "presenteou",
+  "ui.to": "para",
+  "ui.settingsTitle": "Configurações",
+  "ui.settingsEffects": "Efeitos de flores",
+  "ui.settingsGiftLog": "Histórico de presentes"
+}

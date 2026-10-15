@@ -1,0 +1,12 @@
+{
+  "ui.loading": "در حال بارگذاری…",
+  "ui.flowerCooldownPrefix": "بازیابی",
+  "ui.heartCooldownTip": "قلب در مدت {time} بازیابی می‌شود",
+  "ui.heart": "قلب",
+  "ui.flower": "گل رز",
+  "ui.gifted": "هدیه داد",
+  "ui.to": "به",
+  "ui.settingsTitle": "تنظیمات",
+  "ui.settingsEffects": "افکت‌های گل",
+  "ui.settingsGiftLog": "سوابق هدیه‌ها"
+}

@@ -1,0 +1,12 @@
+{
+  "ui.loading": "載入中…",
+  "ui.flowerCooldownPrefix": "恢復",
+  "ui.heartCooldownTip": "愛心將於 {time} 後恢復",
+  "ui.heart": "愛心",
+  "ui.flower": "玫瑰花",
+  "ui.gifted": "贈送了",
+  "ui.to": "給",
+  "ui.settingsTitle": "設定",
+  "ui.settingsEffects": "送花特效",
+  "ui.settingsGiftLog": "送花紀錄"
+}
