@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "我要多久才能升一次等级？",
-            "html": "请在 <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">这里</a> 查看。"
+            "answer": "请在 [这里](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing) 查看。"
           },
           "q7": {
             "question": "登录后转圈圈怎么办？",

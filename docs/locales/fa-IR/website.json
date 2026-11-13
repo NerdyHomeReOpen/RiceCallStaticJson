@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "ارتقاء سطح چقدر طول می‌کشد؟",
-            "html": "لطفاً <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">اینجا</a> را بررسی کنید."
+            "answer": "لطفاً [اینجا](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing) را بررسی کنید."
           },
           "q7": {
             "question": "اگر بعد از ورود همچنان در حال بارگذاری بود چه کنم؟",

@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "Сколько времени нужно, чтобы повысить уровень?",
-            "html": "Проверьте <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">здесь</a>."
+            "answer": "Проверьте [здесь](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing)."
           },
           "q7": {
             "question": "Что делать, если после входа всё время идёт загрузка?",

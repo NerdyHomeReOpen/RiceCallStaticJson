@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "How long to level up?",
-            "html": "Please check <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">here</a>."
+            "answer": "Please check [here](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing)."
           },
           "q7": {
             "question": "What if it keeps loading after login?",

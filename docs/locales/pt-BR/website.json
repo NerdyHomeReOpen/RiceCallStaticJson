@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "Quanto tempo para subir de nível?",
-            "html": "Consulte <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">aqui</a>."
+            "answer": "Consulte [aqui](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing)."
           },
           "q7": {
             "question": "E se continuar carregando após o login?",

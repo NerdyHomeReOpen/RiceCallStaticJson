@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "Seviye atlamak ne kadar sürer?",
-            "html": "Lütfen <a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">burayı</a> kontrol edin."
+            "answer": "Lütfen [burayı](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing) kontrol edin."
           },
           "q7": {
             "question": "Girişten sonra yükleme sürerse ne yapmalıyım?",

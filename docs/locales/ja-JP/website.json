@@ -110,7 +110,7 @@
           },
           "q6": {
             "question": "レベルはどのくらいの頻度で上がりますか？",
-            "html": "<a href=\"https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 underline\">こちら</a> をご覧ください。"
+            "answer": "[こちら](https://docs.google.com/spreadsheets/d/1HjZ9RMpSRFCDJiukbqbZWLg0OdOn-XnpVQQZM6JoCEs/edit?usp=sharing) をご覧ください。"
           },
           "q7": {
             "question": "ログイン後にくるくる回る場合はどうすればよいですか？",
