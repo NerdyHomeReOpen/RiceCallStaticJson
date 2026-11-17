@@ -6,7 +6,8 @@
     "event": "Event"
   },
   "common": {
-    "all": "All"
+    "all": "All",
+    "closePopup": "Close popup"
   },
   "footer": {
     "partners": "Partners",
@@ -21,7 +22,8 @@
       "contact": "Contact",
       "privacy": "Privacy policy",
       "terms": "Terms of service"
-    }
+    },
+    "partnerLabel": "Partner: {name}"
   },
   "nav": {
     "home": "Home",
@@ -135,7 +137,12 @@
       "notFound": "Announcement not found",
       "emptyDesc": "This announcement has no content to display.",
       "notFoundDesc": "The announcement you are looking for does not exist or has been removed. Please return to the list to view the latest announcements.",
-      "gotoLink": "Go to related link"
+      "gotoLink": "Go to related link",
+      "untitled": "Announcement {number}",
+      "badge": "Announcement",
+      "readMore": "More",
+      "preview": "Preview: {title}",
+      "noContent": "No content"
     },
     "contact": {
       "title": "Contact",
@@ -314,6 +321,13 @@
       "retryOpen": "Try restarting RiceCall",
       "loading": "Starting...",
       "unsupported": "Your platform is currently unsupported."
+    },
+    "notFound": {
+      "badge": "Page Not Found",
+      "title": "We can’t find this page",
+      "description": "The page you are looking for does not exist, has been removed, or the address is incorrect.",
+      "hint": "Check the address, or go back to the home page and start again.",
+      "backHome": "Back to home"
     }
   },
   "site": {

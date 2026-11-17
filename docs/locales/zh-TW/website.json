@@ -6,7 +6,8 @@
     "event": "活動"
   },
   "common": {
-    "all": "全部"
+    "all": "全部",
+    "closePopup": "關閉彈窗"
   },
   "footer": {
     "partners": "合作夥伴",
@@ -21,7 +22,8 @@
       "contact": "聯繫我們",
       "privacy": "隱私權政策",
       "terms": "服務條款"
-    }
+    },
+    "partnerLabel": "合作夥伴：{name}"
   },
   "nav": {
     "home": "首頁",
@@ -135,7 +137,12 @@
       "notFound": "找不到此公告",
       "emptyDesc": "此公告目前沒有可顯示的內容。",
       "notFoundDesc": "您所查看的公告不存在或已被移除，請返回列表查看最新公告。",
-      "gotoLink": "前往相關連結"
+      "gotoLink": "前往相關連結",
+      "untitled": "公告 {number}",
+      "badge": "公告",
+      "readMore": "查看更多",
+      "preview": "預覽：{title}",
+      "noContent": "暫無內容"
     },
     "contact": {
       "title": "聯繫我們",
@@ -314,6 +321,13 @@
       "retryOpen": "重新嘗試開啟RiceCall",
       "loading": "正在開啟...",
       "unsupported": "您的平台目前不受支援"
+    },
+    "notFound": {
+      "badge": "找不到頁面",
+      "title": "找不到這個頁面",
+      "description": "您要瀏覽的頁面不存在、已被移除，或是網址輸入有誤。",
+      "hint": "請檢查網址，或返回首頁重新開始。",
+      "backHome": "返回首頁"
     }
   },
   "site": {
