@@ -99,6 +99,7 @@
   "not-receive-application": "無法加入群，此語音群不開放會員申請。",
   "others-device-login": "另一個設備已登入，請重新登入。",
   "permission-denied": "許可權不足。",
+  "recaptcha-failed": "reCAPTCHA 驗證失敗，請重新整理後再試。",
   "receive-member-invitation": "您收到了群會員邀請。",
   "receive-shake-window": "對方向您發送了一次視窗震動。",
   "register-failed": "註冊失敗，請稍後再試。",

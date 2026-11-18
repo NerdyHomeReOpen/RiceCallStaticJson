@@ -99,6 +99,7 @@
   "not-receive-application": "It is not possible to apply for member. This group does not accept applications",
   "others-device-login": "Another device is connected, please log in again.",
   "permission-denied": "Not enough rights",
+  "recaptcha-failed": "reCAPTCHA verification failed. Please refresh the page and try again.",
   "receive-member-invitation": "You have received a group invitation.",
   "receive-shake-window": "The interlocutor sent you a window vibration",
   "register-failed": "Failed to register. Please try again later.",
