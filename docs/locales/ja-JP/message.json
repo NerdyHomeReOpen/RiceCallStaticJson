@@ -99,6 +99,7 @@
   "not-receive-application": "グループに参加できません。このボイスグループはメンバー申請を受け付けていません。",
   "others-device-login": "他のデバイスでログインされました。再度ログインしてください。",
   "permission-denied": "権限が不足しています。",
+  "recaptcha-failed": "reCAPTCHA の認証に失敗しました。ページを再読み込みしてもう一度お試しください。",
   "receive-member-invitation": "グループメンバー招待を受信しました。",
   "receive-shake-window": "相手からウィンドウシェイクが送られました。",
   "register-failed": "登録に失敗しました。しばらくしてからもう一度お試しください。",

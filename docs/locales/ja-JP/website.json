@@ -6,7 +6,8 @@
     "event": "イベント"
   },
   "common": {
-    "all": "すべて"
+    "all": "すべて",
+    "closePopup": "ポップアップを閉じる"
   },
   "footer": {
     "partners": "パートナー",
@@ -21,7 +22,8 @@
       "contact": "お問い合わせ",
       "privacy": "プライバシーポリシー",
       "terms": "利用規約"
-    }
+    },
+    "partnerLabel": "パートナー：{name}"
   },
   "nav": {
     "home": "ホーム",
@@ -135,7 +137,12 @@
       "notFound": "このお知らせは見つかりません",
       "emptyDesc": "このお知らせには、現在表示できる内容がありません。",
       "notFoundDesc": "ご覧の通知は存在しないか、削除されています。お知らせ一覧に戻って最新の通知をご確認ください。",
-      "gotoLink": "関連リンクへ移動"
+      "gotoLink": "関連リンクへ移動",
+      "untitled": "お知らせ {number}",
+      "badge": "お知らせ",
+      "readMore": "もっと見る",
+      "preview": "プレビュー：{title}",
+      "noContent": "内容がありません"
     },
     "contact": {
       "title": "お問い合わせ",
@@ -314,6 +321,13 @@
       "retryOpen": "RiceCallを再起動してみてください",
       "loading": "起動...",
       "unsupported": "お使いのプラットフォームは現在サポートされていません。"
+    },
+    "notFound": {
+      "badge": "ページが見つかりません",
+      "title": "このページは見つかりません",
+      "description": "お探しのページは存在しないか、削除されたか、アドレスが間違っています。",
+      "hint": "アドレスを確認するか、ホームに戻ってやり直してください。",
+      "backHome": "ホームに戻る"
     }
   },
   "site": {

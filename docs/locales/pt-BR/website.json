@@ -6,7 +6,8 @@
     "event": "Evento"
   },
   "common": {
-    "all": "Todos"
+    "all": "Todos",
+    "closePopup": "Fechar pop-up"
   },
   "footer": {
     "partners": "Parceiros",
@@ -21,7 +22,8 @@
       "contact": "Contato",
       "privacy": "Política de privacidade",
       "terms": "Termos de serviço"
-    }
+    },
+    "partnerLabel": "Parceiro: {name}"
   },
   "nav": {
     "home": "Início",
@@ -135,7 +137,12 @@
       "notFound": "Anúncio não encontrado",
       "emptyDesc": "Este anúncio não tem conteúdo para exibir.",
       "notFoundDesc": "O anúncio que você procura não existe ou foi removido. Volte à lista para ver os últimos anúncios.",
-      "gotoLink": "Ir para o link relacionado"
+      "gotoLink": "Ir para o link relacionado",
+      "untitled": "Anúncio {number}",
+      "badge": "Anúncio",
+      "readMore": "Ver mais",
+      "preview": "Pré-visualização: {title}",
+      "noContent": "Sem conteúdo"
     },
     "contact": {
       "title": "Contato",
@@ -314,6 +321,13 @@
       "retryOpen": "Tente reiniciar o RiceCall.",
       "loading": "Começando...",
       "unsupported": "Sua plataforma não é compatível no momento."
+    },
+    "notFound": {
+      "badge": "Página não encontrada",
+      "title": "Não encontramos esta página",
+      "description": "A página que você procura não existe, foi removida ou o endereço está incorreto.",
+      "hint": "Verifique o endereço ou volte à página inicial para começar de novo.",
+      "backHome": "Voltar ao início"
     }
   },
   "site": {

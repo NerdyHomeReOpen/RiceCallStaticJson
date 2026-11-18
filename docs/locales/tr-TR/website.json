@@ -6,7 +6,8 @@
     "event": "Etkinlik"
   },
   "common": {
-    "all": "Tümü"
+    "all": "Tümü",
+    "closePopup": "Açılır pencereyi kapat"
   },
   "footer": {
     "partners": "Ortaklar",
@@ -21,7 +22,8 @@
       "contact": "İletişim",
       "privacy": "Gizlilik Politikası",
       "terms": "Hizmet Şartları"
-    }
+    },
+    "partnerLabel": "Ortak: {name}"
   },
   "nav": {
     "home": "Ana sayfa",
@@ -135,7 +137,12 @@
       "notFound": "Duyuru bulunamadı",
       "emptyDesc": "Bu duyuruda gösterilecek içerik yok.",
       "notFoundDesc": "Aradığınız duyuru mevcut değil veya kaldırılmış. Lütfen en son duyuruları görmek için listeye dönün.",
-      "gotoLink": "İlgili bağlantıya git"
+      "gotoLink": "İlgili bağlantıya git",
+      "untitled": "Duyuru {number}",
+      "badge": "Duyuru",
+      "readMore": "Daha fazla",
+      "preview": "Önizleme: {title}",
+      "noContent": "İçerik yok"
     },
     "contact": {
       "title": "İletişim",
@@ -314,6 +321,13 @@
       "retryOpen": "RiceCall'ı yeniden başlatmayı deneyin",
       "loading": "Başlangıç...",
       "unsupported": "Platformunuz şu anda desteklenmiyor."
+    },
+    "notFound": {
+      "badge": "Sayfa bulunamadı",
+      "title": "Bu sayfayı bulamıyoruz",
+      "description": "Aradığınız sayfa mevcut değil, kaldırılmış veya adres yanlış.",
+      "hint": "Adresi kontrol edin veya ana sayfaya dönüp yeniden başlayın.",
+      "backHome": "Ana sayfaya dön"
     }
   },
   "site": {

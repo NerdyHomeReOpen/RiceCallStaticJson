@@ -99,6 +99,7 @@
   "not-receive-application": "No se puede unirse al grupo, este grupo de voz no acepta solicitudes de membresía.",
   "others-device-login": "Otro dispositivo ha iniciado sesión, por favor vuelve a iniciar sesión",
   "permission-denied": "Permiso denegado.",
+  "recaptcha-failed": "La verificación de reCAPTCHA ha fallado. Actualiza la página e inténtalo de nuevo.",
   "receive-member-invitation": "Ha recibido una invitación para unirse a un grupo.",
   "receive-shake-window": "El contacto te ha enviado un zumbido.",
   "register-failed": "Error al registrarse, por favor, inténtalo de nuevo más tarde",

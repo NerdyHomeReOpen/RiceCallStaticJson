@@ -99,6 +99,7 @@
   "not-receive-application": "无法加入群，此语音群不开放会员申请。",
   "others-device-login": "另一个设备已登录，请重新登录。",
   "permission-denied": "权限不足。",
+  "recaptcha-failed": "reCAPTCHA 验证失败，请刷新页面后重试。",
   "receive-member-invitation": "您收到了群会员邀请。",
   "receive-shake-window": "对方向您发送了一次窗口震动。",
   "register-failed": "注册失败，请稍后再试。",

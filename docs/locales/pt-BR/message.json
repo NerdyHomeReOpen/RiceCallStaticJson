@@ -99,6 +99,7 @@
   "not-receive-application": "Este grupo não aceita pedidos para se tornar membro.",
   "others-device-login": "Outro dispositivo está conectado, por favor conecte-se novamente",
   "permission-denied": "Sem permissão suficiente.",
+  "recaptcha-failed": "A verificação do reCAPTCHA falhou. Atualize a página e tente novamente.",
   "receive-member-invitation": "Você recebeu um convite para participar de um grupo.",
   "receive-shake-window": "Você recebeu uma vibração de janela",
   "register-failed": "Erro ao registrar-se. Tente novamente mais tarde.",

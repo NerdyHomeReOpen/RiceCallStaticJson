@@ -99,6 +99,7 @@
   "not-receive-application": "Gruba katılamıyorum; şu anda bu ses grubu için üyelik başvuruları kabul edilmiyor.",
   "others-device-login": "Başka bir cihaz oturum açtı, lütfen tekrar oturum açın",
   "permission-denied": "Yetersiz izinler",
+  "recaptcha-failed": "reCAPTCHA doğrulaması başarısız oldu. Sayfayı yenileyip tekrar deneyin.",
   "receive-member-invitation": "Bir grup üyelik daveti aldınız.",
   "receive-shake-window": "Diğer taraf size bir pencere titreşimi gönderdi",
   "register-failed": "Kayıt başarısız oldu, lütfen daha sonra tekrar deneyin",
