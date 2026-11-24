@@ -27,7 +27,6 @@ function sortJsonFile(filePath) {
     }
 
     console.log(`Sorting ${filePath} (${Object.keys(jsonData).length} keys)`);
-
     const sortedKeys = Object.keys(jsonData).sort();
     const sortedData = {};
 
@@ -36,11 +35,8 @@ function sortJsonFile(filePath) {
     });
 
     const sortedContent = JSON.stringify(sortedData, null, 2);
-
     fs.writeFileSync(filePath, sortedContent, 'utf8');
-
     console.log(`${filePath} sorted`);
-
     return true;
   } catch (error) {
     console.error(`Error processing ${filePath}: ${error.message}`);
@@ -54,10 +50,12 @@ function findJsonFiles(dir) {
 
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
+
     if (entry.isDirectory()) {
       if (entry.name === 'node_modules' || entry.name.startsWith('.')) {
         continue;
       }
+
       results.push(...findJsonFiles(fullPath));
     } else if (entry.isFile() && entry.name.endsWith('.json')) {
       results.push(fullPath);
@@ -93,13 +91,13 @@ function main() {
   }
 
   const stat = fs.statSync(targetDir);
+
   if (!stat.isDirectory()) {
     console.error(`Error: ${targetDir} is not a directory`);
     process.exit(1);
   }
 
   console.log(`Target directory: ${targetDir}`);
-
   const jsonFiles = findJsonFiles(targetDir);
 
   if (jsonFiles.length === 0) {
@@ -108,12 +106,12 @@ function main() {
   }
 
   console.log(`Found ${jsonFiles.length} JSON file(s)\n`);
-
   let successCount = 0;
   let failCount = 0;
 
   for (const file of jsonFiles) {
     const ok = sortJsonFile(file);
+
     if (ok) {
       successCount++;
     } else {
