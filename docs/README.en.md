@@ -31,7 +31,7 @@ Publishable source data is in `docs/`. `scripts/build.cjs` copies it into `dist/
    yarn build
    ```
 
-3. Inspect `dist/manifest.json` and `dist/locales/`, then publish the entire `dist/` directory to a static host. Consumers fetch paths such as `locales/zh-TW/show.json` from its public base URL. Run `yarn sort` only when intentionally reordering source JSON keys; `yarn format` rewrites source files.
+3. Inspect `dist/manifest.json` and `dist/locales/`, then publish the entire `dist/` directory to a static host. Consumers fetch paths such as `locales/zh-TW/show.json` from its public base URL. Run `yarn sort-json` only when intentionally reordering source JSON keys; `yarn format` rewrites source files.
 
 ## Further documentation
 

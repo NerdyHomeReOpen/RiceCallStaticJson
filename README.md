@@ -31,7 +31,7 @@ Show 使用的語言代碼為 `zh-TW`、`zh-CN`、`en-US`、`ru-RU`、`pt-BR`、
    yarn build
    ```
 
-3. 檢查 `dist/manifest.json` 與 `dist/locales/`，將整個 `dist/` 發布到靜態檔主機。下游使用公開 base URL 讀取，例如 `locales/zh-TW/show.json`。只有要主動整理來源 JSON 鍵順序時才執行 `yarn sort`；`yarn format` 會改寫來源檔。
+3. 檢查 `dist/manifest.json` 與 `dist/locales/`，將整個 `dist/` 發布到靜態檔主機。下游使用公開 base URL 讀取，例如 `locales/zh-TW/show.json`。只有要主動整理來源 JSON 鍵順序時才執行 `yarn sort-json`；`yarn format` 會改寫來源檔。
 
 ## 延伸文件
 
