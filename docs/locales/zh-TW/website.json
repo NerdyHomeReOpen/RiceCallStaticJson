@@ -328,6 +328,45 @@
       "description": "您要瀏覽的頁面不存在、已被移除，或是網址輸入有誤。",
       "hint": "請檢查網址，或返回首頁重新開始。",
       "backHome": "返回首頁"
+    },
+    "rules": {
+      "title": "平台規範",
+      "lastUpdated": "最後更新"
+    },
+    "report": {
+      "title": "舉報",
+      "subtitle": "發現違反平台規範的使用者或群，請告訴我們。管理團隊會盡快處理，並對舉報人保密。",
+      "loginRequired": "請先登入再舉報。",
+      "login": "前往登入",
+      "targetType": "舉報對象",
+      "targetUser": "使用者",
+      "targetServer": "群",
+      "targetId": "對象 ID",
+      "targetIdPlaceholder": "使用者或群的 ID",
+      "targetName": "名稱",
+      "targetNotFound": "找不到這個對象，請確認 ID",
+      "reason": "原因",
+      "reasons": {
+        "harassment": "辱罵或騷擾",
+        "sexual": "色情或不當內容",
+        "scam": "詐騙",
+        "spam": "廣告或洗版",
+        "impersonation": "冒充他人",
+        "cheating": "外掛或攻擊",
+        "other": "其他"
+      },
+      "description": "詳細說明",
+      "descriptionPlaceholder": "請描述發生了什麼、在哪個頻道、大約什麼時間",
+      "screenshots": "截圖（選填，最多 {count} 張，每張 {size} MB 以內）",
+      "submit": "送出舉報",
+      "submitting": "送出中…",
+      "success": "已收到你的舉報，感謝協助維護 RiceCall。",
+      "submitAnother": "再舉報一筆",
+      "requiredField": "請填寫「{field}」",
+      "tooManyFiles": "最多只能附上 {count} 張截圖",
+      "fileTooLarge": "每張截圖須在 {size} MB 以內",
+      "submitError": "送出失敗，請稍後再試",
+      "rulesLink": "查看平台規範"
     }
   },
   "site": {

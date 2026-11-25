@@ -328,6 +328,45 @@
       "description": "The page you are looking for does not exist, has been removed, or the address is incorrect.",
       "hint": "Check the address, or go back to the home page and start again.",
       "backHome": "Back to home"
+    },
+    "rules": {
+      "title": "Community Rules",
+      "lastUpdated": "Last updated"
+    },
+    "report": {
+      "title": "Report",
+      "subtitle": "Tell us about a user or group that breaks the community rules. The moderation team will look into it soon and keep your report confidential.",
+      "loginRequired": "Please log in before filing a report.",
+      "login": "Log in",
+      "targetType": "Reporting",
+      "targetUser": "User",
+      "targetServer": "Group",
+      "targetId": "ID",
+      "targetIdPlaceholder": "The ID of the user or group",
+      "targetName": "Name",
+      "targetNotFound": "No user or group has this ID",
+      "reason": "Reason",
+      "reasons": {
+        "harassment": "Insults or harassment",
+        "sexual": "Sexual or inappropriate content",
+        "scam": "Scam",
+        "spam": "Ads or spam",
+        "impersonation": "Impersonation",
+        "cheating": "Cheats or attacks",
+        "other": "Other"
+      },
+      "description": "Details",
+      "descriptionPlaceholder": "What happened, in which channel, and roughly when",
+      "screenshots": "Screenshots (optional, up to {count}, {size} MB each)",
+      "submit": "Send report",
+      "submitting": "Sending…",
+      "success": "We received your report. Thank you for helping keep RiceCall safe.",
+      "submitAnother": "File another report",
+      "requiredField": "Please fill in \"{field}\"",
+      "tooManyFiles": "You can attach up to {count} screenshots",
+      "fileTooLarge": "Each screenshot must be {size} MB or smaller",
+      "submitError": "Could not send the report, please try again later",
+      "rulesLink": "Read the community rules"
     }
   },
   "site": {

@@ -1,0 +1,65 @@
+{
+  "intro": "RiceCall is a place to chat, sing and make friends together. To keep it safe for everyone, please follow these rules. Accounts or groups that break them may be warned, muted, suspended or disbanded by the moderation team, depending on the case.",
+  "sections": [
+    {
+      "title": "1. Respect others",
+      "items": [
+        "Do not insult, harass, threaten or bully other users",
+        "Do not post content that discriminates by race, gender, religion, nationality, sexual orientation or disability",
+        "Do not share other people's personal information (real name, address, phone number, photos and so on)"
+      ]
+    },
+    {
+      "title": "2. Content",
+      "items": [
+        "Do not send pornographic, nude or sexually suggestive content; anything involving minors is strictly forbidden and will be reported to the authorities",
+        "Do not send gory or violent content, or content that encourages self-harm or crime",
+        "Do not spread rumours, false information or content that infringes copyright"
+      ]
+    },
+    {
+      "title": "3. Scams and advertising",
+      "items": [
+        "Do not scam others or ask for money, items, accounts or passwords",
+        "Do not send unsolicited ads, promotions, floods or repeated messages",
+        "Do not promote gambling, illegal trade or other unlawful activities"
+      ]
+    },
+    {
+      "title": "4. Accounts and identity",
+      "items": ["Do not impersonate staff, moderators or other users", "Do not buy, sell, rent or share accounts", "Do not use additional accounts to evade a suspension or penalty"]
+    },
+    {
+      "title": "5. Groups and channels",
+      "items": [
+        "Group owners and admins must moderate their groups by these rules and must not allow violations",
+        "Group names, avatars, announcements and channel names are covered by these rules too",
+        "Do not abuse moderation powers to harass or target members"
+      ]
+    },
+    {
+      "title": "6. Voice and streaming",
+      "items": [
+        "Do not play disruptive noise or music in voice channels",
+        "Do not record or rebroadcast other people's voice or video without consent",
+        "Streams and performances are covered by these rules too"
+      ]
+    },
+    {
+      "title": "7. Security",
+      "items": ["Do not use cheats, bots or modified clients", "Do not attack, break into or disrupt RiceCall services", "Report vulnerabilities to us; do not exploit or share them"]
+    },
+    {
+      "title": "8. Reports and appeals",
+      "items": [
+        "To report a violation, choose Report in the direct message window or the group settings, and attach screenshots or other evidence",
+        "Do not file false or repeated reports",
+        "To appeal a penalty, use the feedback form"
+      ]
+    },
+    {
+      "title": "9. Changes",
+      "paragraph": "These rules may change at any time; continuing to use RiceCall means you accept the changes. Cases not listed here are decided by the moderation team under the Terms of Service."
+    }
+  ]
+}
