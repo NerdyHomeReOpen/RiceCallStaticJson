@@ -74,7 +74,8 @@
             "title": "Lightweight & fast",
             "desc": "Low CPU and memory usage, smooth in-game"
           }
-        }
+        },
+        "badge": "Features"
       },
       "interface": {
         "title": "Voice built for gaming",
@@ -83,7 +84,8 @@
         "close": "Close",
         "prev": "Previous picture",
         "next": "Next picture",
-        "toggle": "Switch images"
+        "toggle": "Switch images",
+        "badge": "Interface"
       },
       "faq": {
         "title": "FAQs",
@@ -126,7 +128,8 @@
             "question": "Can't log in?",
             "answer": "Ensure you have the latest version. If it persists, report in Discord."
           }
-        }
+        },
+        "badge": "FAQ"
       }
     },
     "announcement": {
@@ -160,14 +163,17 @@
         "developer": "Developer",
         "machine-network": "Machine network",
         "technical-support": "Technical support"
-      }
+      },
+      "badge": "Contact",
+      "error": "Could not load the contacts, please try again later"
     },
     "privacy": {
       "title": "Privacy policy",
       "lastUpdated": "Last updated"
     },
     "terms": {
-      "title": "Terms of service"
+      "title": "Terms of service",
+      "lastUpdated": "Last updated"
     },
     "register": {
       "title": "Register",
@@ -184,7 +190,8 @@
       "errors": {
         "passwordNotMatch": "Passwords do not match",
         "registerFailed": "Registration failed",
-        "networkError": "Network or server error, please try again later"
+        "networkError": "Network or server error, please try again later",
+        "invalidEmail": "Please enter a valid email address"
       }
     },
     "login": {
@@ -273,7 +280,14 @@
       "requestFailed": "Request failed",
       "passwordReset": "Change password",
       "passwordBindAction": "Bind password",
-      "recaptchaFailed": "reCAPTCHA verification failed, please try again later."
+      "recaptchaFailed": "reCAPTCHA verification failed, please try again later.",
+      "emailSuccess": "Your email has been updated",
+      "serverModal": {
+        "announcement": "Announcement",
+        "createdAt": "Created",
+        "notice": "Notice",
+        "wealth": "Wealth"
+      }
     },
     "forget": {
       "forgetTitle": "Forget the password",
@@ -309,7 +323,8 @@
       "passwordInvalidFormat": "Password must contain only English, numbers, and special characters",
       "usernameInvalidFormat": "Nicknames can only contain Chinese characters, English letters, and numbers.",
       "usernameMinLength": "Usernames must be at least 4 characters long.",
-      "usernameMaxLength": "Usernames must be at most 16 characters long."
+      "usernameMaxLength": "Usernames must be at most 16 characters long.",
+      "usernameRequired": "Please enter a nickname"
     },
     "join": {
       "joinTitle": "Join the voice group",
@@ -367,6 +382,9 @@
       "fileTooLarge": "Each screenshot must be {size} MB or smaller",
       "submitError": "Could not send the report, please try again later",
       "rulesLink": "Read the community rules"
+    },
+    "feedback": {
+      "waitForUpload": "Files are still uploading, please wait before submitting"
     }
   },
   "site": {
