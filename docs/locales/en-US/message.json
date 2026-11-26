@@ -185,5 +185,14 @@
   "voice-change-to-forbid-queue": "The administrator [{{operator}}] has closed the queue in this channel.",
   "voice-change-to-free": "The channel voice has been set to free speech",
   "voice-change-to-queue": "The channel voice has been set to queue, please click \"Take mic\" to wait for speech",
-  "wrong-password": "Invalid password"
+  "wrong-password": "Invalid password",
+  "account-suspended": "This account has been suspended.",
+  "account-temporarily-suspended": "Your account has been suspended for {{time}} minutes. Reason: {{reason}}",
+  "account-permanently-suspended": "Your account has been permanently suspended. Reason: {{reason}}",
+  "server-not-found": "Server not found.",
+  "channel-not-found": "Channel not found.",
+  "suspend-user-failed": "Failed to suspend the user.",
+  "unsuspend-user-failed": "Failed to lift the suspension.",
+  "block-user-from-channel-failed": "Failed to block the user from the channel.",
+  "unblock-user-from-channel-failed": "Failed to unblock the user from the channel."
 }

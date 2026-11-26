@@ -185,5 +185,14 @@
   "voice-change-to-forbid-queue": "此頻道被管理員【{{operator}}】設定為禁止排麥。",
   "voice-change-to-free": "該頻道語音已被設為自由發言。",
   "voice-change-to-queue": "頻道被設為排麥才能發言，請點擊\"拿麥發言\"等候發言。",
-  "wrong-password": "密碼錯誤。"
+  "wrong-password": "密碼錯誤。",
+  "account-suspended": "此帳號已被停權，無法登入",
+  "account-temporarily-suspended": "你的帳號已被停權 {{time}} 分鐘。原因：{{reason}}",
+  "account-permanently-suspended": "你的帳號已被永久停權。原因：{{reason}}",
+  "server-not-found": "找不到語音群",
+  "channel-not-found": "找不到頻道",
+  "suspend-user-failed": "停權失敗",
+  "unsuspend-user-failed": "解除停權失敗",
+  "block-user-from-channel-failed": "頻道封鎖失敗",
+  "unblock-user-from-channel-failed": "解除頻道封鎖失敗"
 }
