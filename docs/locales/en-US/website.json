@@ -7,7 +7,15 @@
   },
   "common": {
     "all": "All",
-    "closePopup": "Close popup"
+    "closePopup": "Close popup",
+    "upload": {
+      "choose": "Click to choose files",
+      "limit": "Up to {count} files, {size} MB each",
+      "remove": "Remove file",
+      "tooMany": "You can attach up to {count} files",
+      "tooLarge": "Each file must be {size} MB or smaller",
+      "invalidType": "This file type is not supported"
+    }
   },
   "footer": {
     "partners": "Partners",
@@ -372,19 +380,38 @@
       },
       "description": "Details",
       "descriptionPlaceholder": "What happened, in which channel, and roughly when",
-      "screenshots": "Screenshots (optional, up to {count}, {size} MB each)",
+      "screenshots": "Screenshots (optional)",
       "submit": "Send report",
       "submitting": "Sending…",
       "success": "We received your report. Thank you for helping keep RiceCall safe.",
       "submitAnother": "File another report",
       "requiredField": "Please fill in \"{field}\"",
-      "tooManyFiles": "You can attach up to {count} screenshots",
-      "fileTooLarge": "Each screenshot must be {size} MB or smaller",
       "submitError": "Could not send the report, please try again later",
       "rulesLink": "Read the community rules"
     },
     "feedback": {
-      "waitForUpload": "Files are still uploading, please wait before submitting"
+      "badge": "Feedback",
+      "title": "Feedback",
+      "intro": "Thank you for using RiceCall. If you have any suggestion or questions, you can provide it in this form.\nAfter submitting, please wait patiently for a response. If it takes longer than expected, you may try to directly message the developers.\nPlease remain polite and use civil language. Thank you for your cooperation.\nDeveloper contact: Whydog: whydog (RiceCall), whydog (Discord)",
+      "signedInAs": "Sending as {name}",
+      "nickname": "RiceCall nickname / account",
+      "version": "Version you are using",
+      "versionPlaceholder": "e.g. RiceCall 0.X.X, web version",
+      "content": "Feedback",
+      "contentPlaceholder": "Describe your suggestion or the problem you ran into",
+      "attachments": "Attachments (optional)",
+      "contactConsent": "Are you willing to be contacted by us?",
+      "contactYes": "Yes",
+      "contactNo": "No need",
+      "contact": "Contact information",
+      "contactPlaceholder": "e.g. RiceCall ID, Discord",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "successTitle": "Thank you for your feedback!",
+      "successMessage": "We received your feedback and will look into it soon.",
+      "submitAnother": "Send another",
+      "submitError": "Could not send, please try again later",
+      "requiredField": "Please fill in \"{field}\""
     }
   },
   "site": {
